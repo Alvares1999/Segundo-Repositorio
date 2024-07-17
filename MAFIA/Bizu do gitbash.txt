@@ -1,0 +1,27 @@
+Como criar chave privada no github
+
+ssh-keygen -t rsa -b 4096 -C "yagos4710@gmail.com"
+cd /c/Users/aluno/.ssh/
+ls
+cat id_rsa.pub
+
+
+Como criar uma pasta 
+
+cd Documents/
+mkdir nome da pasta 
+cd nome da pasta ccdcd
+git clone git@github.com:Alvares1999/Segundo-Repositorio.git
+ls
+
+Como criar um Repositorio
+
+git clone com link ssh
+cd nome do repositorio
+git checkout -b nome da branch
+touch index.htlm
+git add . 
+git commit -m "comit teste"
+git push origin nome da branch
+
+

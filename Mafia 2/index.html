@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <center><h1>Formulário</h1>
+
+    <form action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+          
+          <div>
+            <label for="pass">Senha:</label><br>
+            <input type="password" id="Senha" name="Senha" minlength="8" required />
+          </div>
+          
+    
+<p></p>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea type="mensagem" name="mensagem" rows="3" required></textarea><br><br>
+        
+        <label for="assunto">Assunto:</label><br>
+        <select id="assunto" name="assunto" required>
+            <option value="">Selecione um assunto</option>
+            <option value="suporte">Suporte</option>
+            <option value="vendas">Vendas</option>
+            <option value="ouvidoria">Ouvidoria</option>
+        </select><br><br>
+
+        <input type="checkbox" id="aceito" name="aceito" required>
+        <label for="aceito">Eu não sou um robô.</label><br><br>
+
+        <input type="submit" value="Enviar">
+
+        
+    </form>
+</body>
+</html>
