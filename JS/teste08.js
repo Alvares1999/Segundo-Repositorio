@@ -1,0 +1,6 @@
+function maiorNumero(a, b) {
+    return a > b ? a : b;
+    
+}
+
+console.log(maiorNumero(1,5))                 
