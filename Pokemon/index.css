@@ -1,0 +1,50 @@
+/* Define o estilo básico do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Cor do texto, pode ser ajustada conforme a imagem de fundo */
+    background: url(./assets/Design\ sem\ nome.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Estiliza o contêiner central para centralizar o texto */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% da altura da janela de visualização */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estiliza o título */
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+h1:hover {
+    color: #069229; /* Nova cor ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do título ligeiramente */
+
+/* Estiliza o parágrafo */
+p {
+    font-size: 1.5em;
+}
+
+/* Estiliza as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito hover para as imagens */
+img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ligeiramente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra à imagem */
+}
